@@ -9,10 +9,12 @@ export default function ChatInputBox({ message, setMessage, pushMessage }) {
             pushMessage()
         }
     }
+
+
     return (
         <div className="chat-input-box">
             <div className="icon emoji-selector">
-                <img src={emojiIcon} alt="" />
+                <img src={emojiIcon} alt="emoji" />
             </div>
 
             <div className="chat-input">
